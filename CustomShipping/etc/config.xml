@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <custom>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Anamika\CustomShipping\Model\Carrier\Custom</model>
+                <name>Custom Shipping</name>
+                <handling_type>F</handling_type>
+                <price>15.00</price>
+                <title>Custom Method</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is not available right now.</specificerrmsg>
+            </custom>
+        </carriers>
+    </default>
+</config>
